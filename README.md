@@ -4,9 +4,9 @@ This project is an example of flex learning exercise and grades of CSS courses w
 
 ## Author
 
-- Author - [Marjan Sadat Lavasni] (https://github.com/morvarid61)
-- Website - [Andishe Parsi Yakad] (https://andishehparsi.ir/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Author - [@Marjan Sadat Lavasni](https://github.com/morvarid61)
+- Website - [@Andishe Parsi Yakad](https://andishehparsi.ir/)
+- Webpage - [@Testimonials](https://morvarid61.github.io/testimonials/)
 
 ## Further Details
 

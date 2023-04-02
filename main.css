@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/fonts/BarlowSemiCondensed-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/fonts/BarlowSemiCondensed-Medium.ttf");
+    font-weight: 500;
+}
+
+
+body {
+    background: rgba(236, 242, 248, 1);
+    font-family: "Barlow";
+
+}
+
+.name {
+    display: grid;
+    text-align: right;
+    width: 136px;
+    height: 91px;
+    margin: 25.68px 0 17.78px 32px;
+    height: 27.6573486328125px;
+    left: 221px;
+    top: 179.68191528320312px;
+    border-radius: 0px;
+
+}
+
+.images {
+    border-radius: 50px;
+    margin-right: 17px;
+    width: 28px;
+    height: 27.66px;
+
+    left: 221px;
+}
+
+
+.memories {
+    display: grid;
+    grid-template-rows: auto auto;
+    font-weight: 500;
+    grid-gap: 30px;
+    margin: 6% auto;
+    width: 1110px;
+    height: 565px;
+}
+
+
+.dq {
+    color: rgba(167, 117, 241, 1);
+    margin-left: 356px;
+    margin-top: 0;
+    position: absolute;
+    width: 104px;
+    height: 100.75px;
+    opacity: 70%;
+    
+border-radius: 0px;
+
+}
+
+/* .dq{
+height: 100.75174713134766px;
+width: 104px;
+left: 545px;
+top: 154px;
+border-radius: 0px;
+background: rgba(167, 117, 241, 1);
+
+} */
+.Daniel {
+    border-radius: 8px;
+    width: 540px;
+    height: 278px;
+    background: linear-gradient(0deg, #733FC8, #733FC8), linear-gradient(0deg, #979797, #979797);
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+
+}
+
+.Daniel h5{
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    grid-area: 1/2;
+}
+
+.Daniel h6 {
+    color: rgba(217, 217, 217, 1);
+    opacity: 50%;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: left;
+    grid-area: 1/2;
+    margin-top: 15px;
+}
+
+.description {
+    margin:20px 32px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-gap: 15px;
+}
+
+.Daniel b {
+    color: rgba(217, 217, 217, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.Daniel p {
+    color: rgba(207, 207, 207, 1);
+    opacity: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Daniel .images {
+    border-radius: nullpx;
+    border: 2px solid rgba(167, 117, 241, 1);
+}
+
+.Jonathan {
+    background: rgba(72, 85, 106, 1);
+    border-radius: 8px;
+    width: 255px;
+    height: 278.55px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+
+}
+
+.Jonathan h5 {
+    width: 97px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    grid-area: 1/2;
+}
+
+.Jonathan h6 {
+    grid-area: 1/2;
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+    font-size: 11px;
+    margin-top: 15px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+.Jonathan b {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Jonathan p {
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+
+}
+
+.Jeanette {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    color: rgba(72, 85, 106, 1);
+    grid-area: 2/1;
+    width: 255px;
+    height: 262.74px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+
+}
+
+.Jeanette h5 {
+    color: rgba(72, 85, 106, 1);
+    width: 89px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    grid-area: 1/2;
+}
+
+.Jeanette h6 {
+    color: rgba(72, 85, 106, 1);
+    grid-area: 1/2;
+    margin-top: 15px;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Jeanette b {
+    color: rgba(72, 85, 106, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Jeanette p {
+    color: rgba(72, 85, 106, 1);
+    opacity: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Patrick {
+    background: rgba(25, 32, 45, 1);
+    border-radius: nullpx;
+    border-radius: 8px;
+    grid-area: 2/1;
+    margin-left: 53%;
+    width: 540px;
+    height: 262.74px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.Patrick .images {
+    border-radius: nullpx;
+    border: 2px solid rgba(167, 117, 241, 1);
+}
+
+.Patrick h5 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+    grid-area: 1/2;
+}
+
+.Patrick h6 {
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 15px;
+    grid-area: 1/2;
+}
+
+.Patrick b {
+    color: rgba(236, 242, 248, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Patrick p {
+    color: rgba(255, 255, 255, 1);
+    opacity: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.Kira {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    grid-area: 1/span1 2/span3;
+    width: 255px;
+    height: 565px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.Kira h5 {
+    color: rgba(72, 85, 106, 1);
+    grid-area: 1/2;
+font-size: 13px;
+font-weight: 500;
+line-height: 13px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.Kira h6 {
+    color: rgba(72, 85, 106, 1);
+    opacity: 50%;
+    grid-area: 1/2;
+width: 76px;
+margin-top: 15px;
+font-size: 11px;
+font-weight: 500;
+line-height: 11px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.Kira b {
+    color: rgba(72, 85, 106, 1);
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.Kira p {
+    color: rgba(72, 85, 106, 1);
+    opacity: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+
+
+
+/* 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
