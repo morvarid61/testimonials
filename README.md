@@ -2,6 +2,10 @@
 
 This project is an example of flex learning exercise and grades of CSS courses with the coaching of Mr. Erfan Attarzadeh.
 
+### screen shot
+
+![](./screenshot.jpg)
+
 ## Author
 
 - Author - [@Marjan Sadat Lavasni](https://github.com/morvarid61)
