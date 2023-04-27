@@ -57,9 +57,13 @@ body {
 }
 
 .container-name {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "images name name name"
+        "images  name name name";
     margin: 25px 32px 17px;
-    flex-direction: row;
+
     width: 140px;
     height: 28px;
 }
@@ -75,27 +79,27 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 32px ;
+    margin-left: 32px;
     margin-right: 32px;
 }
 
 .images {
     margin-right: 17px;
-
+grid-area: images;
 }
 
 h5 {
     font-weight: 500;
     color: #fff;
     font-size: 13px;
-    
+    grid-area: name;
 }
 
 h6 {
     font-weight: 500;
     opacity: 50%;
     font-size: 11px;
-
+    grid-area: name;
 }
 
 b {
@@ -145,11 +149,13 @@ p {
     opacity: 50%;
     color: #48556A;
 }
-.Jeanette b{
+
+.Jeanette b {
     color: #48556A;
 
 }
-.Jeanette p{
+
+.Jeanette p {
     opacity: 50%;
     color: #48556A;
 }
@@ -173,13 +179,15 @@ p {
     opacity: 50%;
     color: #48556A;
 }
-.Kira b{
+
+.Kira b {
     color: #48556A;
 
 }
-.Kira p{
+
+.Kira p {
     opacity: 50%;
-    color: #48556A; 
+    color: #48556A;
 }
 
 
