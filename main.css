@@ -95,6 +95,7 @@ h5 {
 }
 
 h6 {
+    color: #FFFFFF;
     font-weight: 500;
     opacity: 50%;
     font-size: 11px;
@@ -190,7 +191,7 @@ p {
 }
 
 
-/* 
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -198,4 +199,4 @@ p {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-} */
+}
