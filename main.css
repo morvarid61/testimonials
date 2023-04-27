@@ -183,7 +183,7 @@ p {
 
 .Kira b {
     color: #48556A;
-margin-bottom: 23px;
+    margin-bottom: 23px;
 
 }
 
@@ -220,13 +220,26 @@ margin-bottom: 23px;
         grid-gap: 24px;
         width: 328px;
         height: 1824px;
+
+    }
+
+    b {
+        line-height: 24px;
     
+    }
+
+    p {
+        line-height: 18px;
     }
 
     .Daniel {
         height: 444px;
         width: 327px;
 
+    }
+
+    .Daniel b {
+        margin-bottom: 40px;
     }
 
     .Jonathan {
