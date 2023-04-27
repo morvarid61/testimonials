@@ -4,7 +4,7 @@ This project is an example of flex learning exercise and grades of CSS courses w
 
 ### screen shot
 
-![Screen Shot](./screenshot.jpg)
+![Screen Shot](./screenshot4.jpg)
 
 ## Author
 
