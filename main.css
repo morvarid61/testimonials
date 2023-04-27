@@ -63,7 +63,7 @@ body {
     grid-template-areas: "images name name name"
         "images  name name name";
     margin: 25px 32px 17px;
-
+    grid-gap: 17px;
     width: 140px;
     height: 28px;
 }
@@ -84,8 +84,7 @@ body {
 }
 
 .images {
-    margin-right: 17px;
-grid-area: images;
+    grid-area: images;
 }
 
 h5 {
