@@ -200,3 +200,49 @@ p {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width:1110px) {
+    body {
+        height: 1834px;
+        padding: 71px 24px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "Daniel""Jonathan""Jeanette "
+            "Patrick"" Kira";
+        grid-gap: 24px;
+        width: 328px;
+        height: 1824px;
+    
+    }
+
+    .Daniel {
+        height: 444px;
+        width: 327px;
+
+    }
+
+    .Jonathan {
+        height: 240px;
+        width: 327px;
+    }
+
+    .Jeanette {
+        height: 222px;
+        width: 327px;
+    }
+
+    .Patrick {
+        height: 384px;
+        width: 327px;
+    }
+
+    .Kira {
+        height: 438px;
+        width: 327px;
+    }
+}
