@@ -115,7 +115,8 @@ p {
     opacity: 70%;
     font-weight: 500;
     font-size: 13px;
-    margin-bottom: 32px;
+    line-height: 18px;
+    margin-bottom: 25px;
 }
 
 .Daniel {
@@ -182,12 +183,14 @@ p {
 
 .Kira b {
     color: #48556A;
+margin-bottom: 23px;
 
 }
 
 .Kira p {
     opacity: 50%;
     color: #48556A;
+    line-height: 18px;
 }
 
 
