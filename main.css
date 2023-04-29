@@ -203,8 +203,71 @@ p {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+@media only screen and (max-width:1110px){
+    body {
+        height:1830px;
+        padding: 31px ;
+    }
 
-@media only screen and (max-width:1110px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:repeat(5,240px);
+        grid-template-areas:
+            "Daniel Daniel"
+            "Jonathan  Kira"
+            "Jeanette  Kira"
+            "Patrick Patrick";
+        grid-gap: 20px;
+        width: 560px;
+        height: 1824px;
+
+    }
+    b {
+        line-height: 20px;
+    
+    }
+
+    p {
+        line-height: 18px;
+    }
+
+    .Daniel {
+        height: 250px;
+    width: 600px;
+        background: url(./images/dabel.png )no-repeat top right 69px #733FC8;
+    }
+
+    .Kira b {
+        margin-bottom: 10px;
+    }
+
+    .Jonathan {
+        height: 240px;
+        width: 300px;
+    }
+
+    .Jeanette {
+        height: 240px;
+        width: 300px;
+    }
+
+    .Patrick {
+        height: 250px;
+        width: 600px;
+    }
+
+    .Kira {
+        height: 500px;
+        width:280px;
+    }
+    .attribution{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:750px) {
     body {
         height: 1834px;
         padding: 71px 24px;
