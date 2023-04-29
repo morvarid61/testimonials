@@ -11,8 +11,8 @@ This project is an example of flex learning exercise and grades of CSS courses w
 ## Author
 
 - Author - [@Marjan Sadat Lavasni](https://github.com/morvarid61)
-- Website - [@Andishe Parsi Yakad](https://andishehparsi.ir/)
-- E-mail - [@E-mail](marij6191@gmail.com)
+- Website - [@Andishe Parsi Ikad](https://andishehparsi.ir/)
+- E-mail - [@marij6191@gmail.com](marij6191@gmail.com)
 
 ## Further Details
 
