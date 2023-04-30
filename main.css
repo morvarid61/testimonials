@@ -325,7 +325,6 @@ body {
 }
 
 @media only screen and (max-width:750px) {
-
     .layout {
         height: 1834px;
         margin: 50px 0 100px;
@@ -343,12 +342,10 @@ body {
         grid-gap: 24px;
         width: 328px;
         height: 1824px;
-
     }
 
     h4 {
         line-height: 24px;
-
     }
 
     p {
