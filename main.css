@@ -192,6 +192,7 @@ body {
     font-weight: 500;
     line-height: 18px;
     margin: 16px 32px;
+    opacity: 70%;
 }
 
 .person-Patrick {
@@ -259,7 +260,9 @@ body {
         justify-content: center;
         align-items: flex-start;
     }
-
+h4{
+    line-height: 20px;
+}
 
 
     .container {
@@ -294,6 +297,7 @@ body {
         margin-top: 10px;
     }
 
+
     .person-Jeanette {
         height: 240px;
         width: 300px;
@@ -315,10 +319,11 @@ body {
     .person-Kira h4 {
         margin-left: 35px;
         width: 240px;
-        height: 50px;
-        line-height: 20px;
+        
     }
-
+    .person-Kira p{
+        line-height: 17px;
+    }
 
 
 
