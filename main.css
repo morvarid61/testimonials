@@ -54,13 +54,13 @@ body {
     flex-direction: row;
     width: 140px;
     height: 28px;
-    margin: 25px 17px 0 32px;
+    margin: 25px 17px 0 32px ; 
 }
 
 .name {
     width: 91px;
     height: 28px;
-
+   
 }
 
 .description {
@@ -71,21 +71,21 @@ body {
 .image {
     grid-area: images;
     width: 28px;
-    margin-right: 17px;
+margin-right : 17px;
 }
-
 .big h5 {
     font-weight: 500;
     color: #fff;
     font-size: 13px;
-}
 
+    
+}
 .big h6 {
     color: #FFF;
     font-weight: 500;
     opacity: 50%;
     font-size: 11px;
-
+   
 }
 
 .big h4 {
@@ -108,31 +108,30 @@ body {
     color: #CFCFCF;
     opacity: 70%;
 }
-
 .person-Daniel {
     grid-area: Daniel;
     background: url(./images/dabel.png )no-repeat top right 80px #733FC8;
     height: 278px;
     width: 540px;
 }
-
 .person-Jonathan h5 {
-    font-size: 13px;
-    line-height: 13px;
-    left: 836px;
-    top: 180px;
-    color: #FFFFFF;
-    width: 91px;
-    height: 13px;
-}
 
-.person-Jonathan h6 {
+font-size: 13px;
+line-height: 13px;
+left: 836px;
+top: 180px;
+border-radius: 0px;
+color: #FFFFFF;
+width: 91px;
+   height: 13px;
+}
+.person-Jonathan  h6 {
     color: #FFFFFF;
     font-weight: 500;
     opacity: 70%;
     font-size: 11px;
-    width: 76px;
-    height: 11px;
+   width: 76px;
+   height: 11px;
 }
 
 .person-Jonathan h4 {
@@ -142,15 +141,15 @@ body {
     text-align: left;
     color: #FFFFFF;
     margin: 17px 32px;
-}
-
-.person-Jonathan p {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 18px;
-    color: #FFFFFF;
-    opacity: 70%;
-    margin: 16px 32px;
+    }
+.person-Jonathan  p {
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color: #FFFFFF;
+opacity: 70%;
+ margin: 16px 32px;
 }
 
 .person-Jonathan {
@@ -158,7 +157,30 @@ body {
     grid-area: Jonathan;
     width: 255px;
     height: 278px;
+
 }
+ 
+ /* h4{
+    color: #D9D9D9;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 20px 32px 32px 32px;
+    text-align: left;
+   
+}
+ p {
+    color: #CFCFCF;
+    opacity: 70%;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 16px 32px 32px 32px;
+    
+} */ 
+
+
+
 
 .person-Jeanette {
     background: #FFFFFF;
@@ -166,33 +188,23 @@ body {
     color: #48556A;
 }
 
-.person-Jeanette h6 {
+.person-Jeanette h5 p{
     opacity: 50%;
-}
-
-.person-Jeanette h5 {
-    width: 89px;
-    height: 13px;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 13px;
-}
-
-.person-Jeanette h4 {
-    width: 191px;
-    height: 71px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    margin: 17px 32px;
-}
-
-.person-Jeanette p {
-    font-size: 13px;
-    font-weight: 500;
+    color: #48556A;
     line-height: 18px;
-    margin: 16px 32px;
 }
+
+.person-Jeanette  h4 {
+    color: #48556A;
+     margin-bottom: 23px;
+
+} 
+
+ /* .person-Jeanette {
+    
+    color: #48556A;
+    
+} */
 
 .person-Patrick {
     background: #19202D;
@@ -202,41 +214,27 @@ body {
 .person-Kira {
     background: #FFFFFF;
     grid-area: Kira;
-}
-
-.person-Kira h5 {
-    color: #48556A;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 13px;
 
 }
 
-.person-Kira h6 {
+.person-Kira .person-Jeanette h5 {
     color: #48556A;
+}
+
+.person-Kira .person-Jeanette h6 {
     opacity: 50%;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 11px;
-
+    color: #48556A;
 }
 
-.person-Kira h4 {
+.person-Kira .person-Jeanette h4 {
     color: #48556A;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    margin: 17px 32px;
 }
 
 
-.person-Kira p {
-    opacity: 70%;
+.person-Kira .person-Jeanette p {
+    opacity: 50%;
     color: #48556A;
-    font-size: 13px;
-    font-weight: 500;
     line-height: 18px;
-    margin: 16px 32px;
 }
 
 
@@ -251,16 +249,10 @@ body {
 }
 
 @media only screen and (max-width:1110px) {
-
-
-    .layout {
-        height: 900px;
-        margin: 50px 0 200px;
-        justify-content: center;
-        align-items: flex-start;
+    body {
+        height: 1830px;
+        padding: 31px;
     }
-
-
 
     .container {
         display: grid;
@@ -272,64 +264,60 @@ body {
             "Jeanette  Kira"
             "Patrick Patrick";
         grid-gap: 20px;
-        width: 600px;
+        width: 560px;
+        height: 1824px;
 
+    }
+
+    b {
+        line-height: 20px;
+
+    }
+
+    p {
+        line-height: 18px;
     }
 
     .person-Daniel {
-        height: 255px;
+        height: 250px;
         width: 600px;
         background: url(./images/dabel.png )no-repeat top right 69px #733FC8;
-
     }
 
-    .person-Daniel p {
-        line-height: 16px;
+    .person-Kira b {
+        margin-bottom: 10px;
     }
-
 
     .person-Jonathan {
         height: 240px;
         width: 300px;
-        margin-top: 10px;
     }
 
     .person-Jeanette {
         height: 240px;
         width: 300px;
-        margin-top: 7px;
     }
 
     .person-Patrick {
         height: 250px;
         width: 600px;
-        margin-top: 10px;
     }
 
     .person-Kira {
         height: 500px;
         width: 280px;
-        margin-top: 10px;
     }
 
-    .person-Kira h4 {
-        margin-left: 35px;
-        width: 240px;
-        height: 50px;
-        line-height: 20px;
+    .attribution {
+        display: none;
     }
-
-
-
 
 }
 
 @media only screen and (max-width:750px) {
-    .layout {
+    body {
         height: 1834px;
-        margin: 50px 0 100px;
-        justify-content: center;
-        align-items: flex-start;
+        padding: 71px 24px;
     }
 
     .container {
@@ -342,10 +330,12 @@ body {
         grid-gap: 24px;
         width: 328px;
         height: 1824px;
+
     }
 
-    h4 {
+    b {
         line-height: 24px;
+
     }
 
     p {
@@ -358,17 +348,8 @@ body {
         background: url(./images/dabel.png )no-repeat top left 199px #733FC8;
     }
 
-    .person-Daniel h4 {
+    .person-Daniel b {
         margin-bottom: 40px;
-        width: 263px;
-        height: 120px;
-    }
-
-    .person-Daniel p {
-        width: 247px;
-        height: 180px;
-        font-size: 13px;
-
     }
 
     .person-Jonathan {
@@ -384,17 +365,6 @@ body {
     .person-Patrick {
         height: 384px;
         width: 327px;
-    }
-
-    .person-Patrick h4 {
-        width: 263px;
-        height: 120px;
-
-    }
-
-    .person-Patrick p {
-        width: 263px;
-        height: 144px;
     }
 
     .person-Kira {
