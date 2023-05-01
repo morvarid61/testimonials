@@ -350,16 +350,16 @@ h4{
     }
 
     h4 {
-        line-height: 24px;
+        line-height: 20px;
     }
 
     p {
-        line-height: 18px;
+        line-height: 16px;
     }
 
     .person-Daniel {
         height: 444px;
-        width: 327px;
+        width: 347px;
         background: url(./images/dabel.png )no-repeat top left 199px #733FC8;
     }
 
@@ -373,7 +373,7 @@ h4{
         width: 247px;
         height: 180px;
         font-size: 13px;
-
+        line-height: 18px;
     }
 
     .person-Jonathan {
@@ -382,7 +382,6 @@ h4{
     }
 
     .person-Jeanette {
-        height: 222px;
         width: 327px;
     }
 
